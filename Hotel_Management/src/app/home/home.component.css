@@ -1,0 +1,56 @@
+#logo{
+    height: 100px;
+    width: 150px;
+    position: relative;
+    left: -30px;
+    background: none;}
+
+
+body{
+    background-image: url("../../assets/background.png");
+    background-size:cover ;
+    background-position: center; 
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    margin: 0; /* Remove default body margin */
+    padding: 0; 
+}
+
+.btns{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    
+
+}
+
+ul li a{
+    color: white;
+}
+
+.btn-container{
+    margin-top: 100px;
+    border: 1px solid whitesmoke;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/background.png");
+    background-size: cover;
+    flex-direction: column;
+   
+    
+}
+.btn-container button{
+    
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    
+}
